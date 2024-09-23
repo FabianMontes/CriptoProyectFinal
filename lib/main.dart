@@ -15,7 +15,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   WidgetsFlutterBinding.ensureInitialized();
-  if(kIsWeb){  await Firebase.initializeApp(options: FirebaseOptions(  apiKey: "AIzaSyAaZ7p1AzLSi6nRggzvOUf7ejmeWimgU18",
+  if(kIsWeb){  await Firebase.initializeApp(options: FirebaseOptions(  apiKey: "",
   authDomain: "flutter-chat-app-76e99.firebaseapp.com",
   projectId: "flutter-chat-app-76e99",
   storageBucket: "flutter-chat-app-76e99.appspot.com",
